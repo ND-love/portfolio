@@ -1,11 +1,3 @@
----
-layout: default
-title: 📄 SQL Injection Cheat Sheet
-parent: 📂 PortSwigger Labs
-grand_parent: 
-nav_order: 10
----
-
 # SQL Injection Cheat Sheet (PortSwigger)
 
 Эта шпаргалка содержит полезный синтаксис для эксплуатации SQL-инъекций в Oracle, Microsoft SQL Server, PostgreSQL и MySQL.

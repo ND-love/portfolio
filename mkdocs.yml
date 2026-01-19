@@ -1,0 +1,52 @@
+site_name: InfoSec Portfolio
+site_url: https://nd-love.github.io/portfolio/
+repo_url: https://github.com/ND-love/portfolio
+repo_name: ND-love/portfolio
+
+# Тема Material
+theme:
+  name: material
+  language: ru
+  # Включаем ночной режим и переключатель
+  palette:
+    # Темная тема (по умолчанию)
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: teal    # Цвет шапки
+      accent: purple   # Цвет ссылок (Фиолетовый)
+      toggle:
+        icon: material/weather-night
+        name: Switch to light mode
+    # Светлая тема
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: teal
+      accent: purple
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to dark mode
+  # Фишки интерфейса
+  features:
+    - navigation.tabs        # Верхнее меню как вкладки
+    - navigation.expand      # Раскрывать папки
+    - navigation.top         # Кнопка "Наверх"
+    - search.suggest         # Подсказки в поиске
+    - search.highlight       # Подсветка найденного
+    - content.code.copy      # Кнопка "Копировать" в коде!
+
+# Настройки Markdown (включаем крутую подсветку)
+markdown_extensions:
+  - admonition               # Блоки "Внимание", "Info"
+  - pymdownx.details         # Сворачиваемые блоки
+  - pymdownx.superfences     # Крутые блоки кода
+  - pymdownx.highlight:      # Подсветка синтаксиса
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - tables                   # Красивые таблицы
+
+# Плагины
+plugins:
+  - search                   # Поиск работает сразу

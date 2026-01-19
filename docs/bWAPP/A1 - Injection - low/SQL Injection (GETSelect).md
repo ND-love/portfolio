@@ -1,9 +1,3 @@
----
-layout: default
-title: 📄 SQL Injection (GET/Search)
-parent: 📂 A1 - Injection - low
-grand_parent: 📂 bWAPP Labs
----
 **SQL Injection (GET/Search)** - **(low)**
 
 Используем строку
