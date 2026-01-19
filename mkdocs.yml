@@ -1,18 +1,19 @@
 site_name: Портфолию Д.Р.
 site_url: https://github.com/ND-love
 
-# --- ТЕМА И ЦВЕТА ---
+# --- ТЕМА И ВНЕШНИЙ ВИД ---
 theme:
   name: material
   language: ru
-  custom_dir: docs # Обязательно для твоих кастомных цветов VS Code
+  custom_dir: docs
   
+  # Спокойная цветовая схема (VS Code Style)
   palette:
-    # Темная тема (твоя настроенная)
+    # Темная тема
     - media: "(prefers-color-scheme: dark)"
       scheme: slate
-      primary: blue-grey
-      accent: indigo
+      primary: blue-grey  # Серо-синяя шапка
+      accent: indigo      # Синие ссылки
       toggle:
         icon: material/weather-night
         name: Switch to light mode
@@ -26,27 +27,24 @@ theme:
         icon: material/weather-sunny
         name: Switch to dark mode
 
-  # --- НАСТРОЙКИ МЕНЮ (САМОЕ ВАЖНОЕ) ---
+  # --- НАСТРОЙКИ МЕНЮ (ДЕРЕВО) ---
   features:
-    - navigation.expand       # Добавляет стрелочки (раскрыть/закрыть папку)
-    - navigation.indexes      # Делает название папки кликабельным (если внутри есть index.md)
-    # - navigation.sections   # <--- Я УБРАЛ ЭТО. Именно оно ломало "дерево" и делало заголовки жирными
-    # - navigation.tabs       # <--- Тоже убрано, чтобы меню было строго слева
-    
-    - navigation.instant      # Сайт грузится мгновенно (без белого моргания)
-    - navigation.tracking     # Сайдбар автоматически подсвечивает файл, который ты читаешь
-    - navigation.path         # Хлебные крошки сверху (Главная > bWAPP > Injection)
+
+    - navigation.expand       # Добавляет стрелочки ▾ для папок
+    - navigation.indexes      # Позволяет кликать на название папки, чтобы открыть её index.md
+    - navigation.instant      # Мгновенная загрузка страниц
+    - navigation.tracking     # Меню само прокручивается к открытому файлу
     
     - navigation.top          # Кнопка "Наверх"
+    - content.code.copy       # Кнопка копирования кода
     - search.suggest
     - search.highlight
-    - content.code.copy       # Кнопка копировать код
 
-# --- ПОДКЛЮЧАЕМ ТВОЙ СТИЛЬ VS CODE ---
+# --- ПОДКЛЮЧЕНИЕ СТИЛЕЙ ---
 extra_css:
   - stylesheets/extra.css
 
-# --- MARKDOWN ---
+# --- НАСТРОЙКИ MARKDOWN ---
 markdown_extensions:
   - admonition
   - pymdownx.details
