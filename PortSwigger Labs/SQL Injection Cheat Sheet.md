@@ -1,15 +1,12 @@
 ---
 layout: default
 title: SQL Injection Cheat Sheet
-parent: PortSwigger Labs
-
-Конечно. Я переработал предоставленный PDF в структурированную Markdown-шпаргалку. Она разбита по задачам (что мы хотим сделать) и по базам данных.
-
-Вы можете создать файл `SQL_Injection_CheatSheet.md` в папке `PortSwigger` или в корне портфолио и вставить туда этот код.
-
+parent: SQL Injection
+grand_parent: PortSwigger Labs
+nav_order: 10
 ---
 
-# 🗝️ SQL Injection Cheat Sheet (PortSwigger)
+# SQL Injection Cheat Sheet (PortSwigger)
 
 Эта шпаргалка содержит полезный синтаксис для эксплуатации SQL-инъекций в Oracle, Microsoft SQL Server, PostgreSQL и MySQL.
 
