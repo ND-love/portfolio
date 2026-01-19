@@ -83,9 +83,9 @@ Some notes for level29 of bandit.
 
 └─\$ git log
 
-commit b0354c7be30f500854c5fc971c57e9cbe632fef6 (HEAD -\> master, origin/master, origin/HEAD)
+commit b0354c7be30f500854c5fc971c57e9cbe632fef6 (HEAD -\&gt; master, origin/master, origin/HEAD)
 
-Author: Morla Porla \<morla@overthewire.org\>
+Author: Morla Porla \&lt;morla@overthewire.org\&gt;
 
 Date: Tue Oct 14 09:26:19 2025 +0000
 
@@ -97,7 +97,7 @@ fix info leak
 
 commit d0cf2ab7dd7ebc6075b59102a980155268f0fe8f
 
-Author: Morla Porla \<morla@overthewire.org\>
+Author: Morla Porla \&lt;morla@overthewire.org\&gt;
 
 Date: Tue Oct 14 09:26:19 2025 +0000
 
@@ -109,7 +109,7 @@ add missing data
 
 commit bd6bc3a57f81518bb2ce63f5816607a754ba730d
 
-Author: Ben Dover \<noone@overthewire.org\>
+Author: Ben Dover \&lt;noone@overthewire.org\&gt;
 
 Date: Tue Oct 14 09:26:18 2025 +0000
 
@@ -139,7 +139,7 @@ do so (now or later) by using -c with the switch command. Example:
 
  
 
-git switch -c \<new-branch-name\>
+git switch -c \&lt;new-branch-name\&gt;
 
  
 

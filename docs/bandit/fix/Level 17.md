@@ -3,11 +3,11 @@
 
 Задание: There are 2 files in the homedirectory: **passwords.old and passwords.new**. The password for the next level is in **passwords.new** and is the only line that has been changed between **passwords.old and passwords.new**
 
-> **NOTE: if you have solved this level and see 'Byebye!' when trying to log into bandit18, this is related to the next level, bandit19**
+&gt; **NOTE: if you have solved this level and see 'Byebye!' when trying to log into bandit18, this is related to the next level, bandit19**
 
 **Решение:** для выполнения этого задания потребуется использовать команду diff
 
-> Данная утили позволяет сравнивать и находить различия между двумя файлами. Вот вывод help:
+&gt; Данная утили позволяет сравнивать и находить различия между двумя файлами. Вот вывод help:
 
 ┌──(kali㉿kali)-\[\~\]
 
@@ -133,9 +133,9 @@ LTYPE is \'old\', \'new\', or \'unchanged\'. GTYPE is LTYPE or \'changed\'.
 
 GFMT (only) may contain:
 
-%\< lines from FILE1
+%\&lt; lines from FILE1
 
-%\> lines from FILE2
+%\&gt; lines from FILE2
 
 %= lines common to FILE1 and FILE2
 
@@ -209,9 +209,9 @@ FILES are \'FILE1 FILE2\' or \'DIR1 DIR2\' or \'DIR FILE\' or \'FILE DIR\'.
 
 **Report** bugs to: bug-diffutils@gnu.org
 
-GNU diffutils home page: \<https://www.gnu.org/software/diffutils/\>
+GNU diffutils home page: \&lt;https://www.gnu.org/software/diffutils/\&gt;
 
-**General** help using GNU software: \<https://www.gnu.org/gethelp/\>
+**General** help using GNU software: \&lt;https://www.gnu.org/gethelp/\&gt;
 
 Но мы можем просто ввести названия файлов и получить построчный вывод различий между файлами:
 
@@ -219,9 +219,9 @@ bandit17@bandit:\~\$ diff passwords.new passwords.old
 
 42c42
 
-\< [x2gLTTjFwMOhQ8oWNbMN362QKxfRqGlO]\{.mark\}
+\&lt; [x2gLTTjFwMOhQ8oWNbMN362QKxfRqGlO]\{.mark\}
 
 \-\--
 
-\> BMIOFKM7CRSLI97voLp3TD80NAq5exxk
+\&gt; BMIOFKM7CRSLI97voLp3TD80NAq5exxk
 

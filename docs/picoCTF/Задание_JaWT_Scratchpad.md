@@ -4,7 +4,7 @@
 
 ![img](media/Задание_JaWT_Scratchpad/media/image1.png)
 
-Никакого эффекта это не дало, однако название задания и самого сайта наталкивает на JWT-токены. Для этого нам понадобится утилита jwt-tool (<https://github.com/ticarpi/jwt_tool>), словарь rockyou и burp suite. Получаем токен в JWT-tool, устанавливаем словарь rockyou и через команду (jwt_tool -C -d \~/rockyou.txt eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyIjoiZGFuaWlsIn0.Oo1h8-zN8zjMfz98hJW1TTI4XNB8BtQ23HZ6ZAsthOo) и в итоге мы находим секрет (им оказывается фраза «ilovepico», которую мы теперь используем для генерации нового токена) (рис 2)
+Никакого эффекта это не дало, однако название задания и самого сайта наталкивает на JWT-токены. Для этого нам понадобится утилита jwt-tool (&lt;https://github.com/ticarpi/jwt_tool&gt;), словарь rockyou и burp suite. Получаем токен в JWT-tool, устанавливаем словарь rockyou и через команду (jwt_tool -C -d \~/rockyou.txt eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyIjoiZGFuaWlsIn0.Oo1h8-zN8zjMfz98hJW1TTI4XNB8BtQ23HZ6ZAsthOo) и в итоге мы находим секрет (им оказывается фраза «ilovepico», которую мы теперь используем для генерации нового токена) (рис 2)
 
 ![img](media/Задание_JaWT_Scratchpad/media/image2.png)
 

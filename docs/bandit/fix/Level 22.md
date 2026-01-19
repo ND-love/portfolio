@@ -33,7 +33,7 @@ echo \"Copying passwordfile /etc/bandit_pass/\$myname to /tmp/\$mytarget\"
 
  
 
-cat /etc/bandit_pass/\$myname \> /tmp/\$mytarget
+cat /etc/bandit_pass/\$myname \&gt; /tmp/\$mytarget
 
 andit22@bandit:\~\$ cd /..
 

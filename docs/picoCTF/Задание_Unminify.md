@@ -4,7 +4,7 @@
 
 ![img](media/Задание_Unminify/media/image1.png)
 
-При помощи сайта <https://beautifier.io/> быстро приводим его в читаемый вид и находим флаг (рис 2)
+При помощи сайта &lt;https://beautifier.io/&gt; быстро приводим его в читаемый вид и находим флаг (рис 2)
 
 ![img](media/Задание_Unminify/media/image2.png)
 

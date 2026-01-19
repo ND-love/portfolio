@@ -25,4 +25,4 @@ information_schema.columns where table_name=\'users\'\-- -
 ![Рисунок 1](./images/media/image1.png)
 
 ### См. также
-подробнее ознакомиться с этой темой советую тут: <https://portswigger.net/web-security/sql-injection#what-is-sql-injection-sqli>
+подробнее ознакомиться с этой темой советую тут: &lt;https://portswigger.net/web-security/sql-injection#what-is-sql-injection-sqli&gt;

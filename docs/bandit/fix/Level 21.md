@@ -71,7 +71,7 @@ bandit21@bandit:/bin\$ cat cronjob_bandit22.sh
 
 chmod 644 /tmp/t7O6lds9S0RqQh9aMcz6ShpAoZKF7fgv
 
-cat /etc/bandit_pass/bandit22 \> /tmp/t7O6lds9S0RqQh9aMcz6ShpAoZKF7fgv
+cat /etc/bandit_pass/bandit22 \&gt; /tmp/t7O6lds9S0RqQh9aMcz6ShpAoZKF7fgv
 
 bandit21@bandit:/bin\$
 

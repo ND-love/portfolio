@@ -75,9 +75,9 @@ just an epmty file\... muahaha
 
 └─\$ git log
 
-commit 62152a9969c62cb647406aa88c1b5376dcf58968 (HEAD -\> master, origin/master, origin/HEAD)
+commit 62152a9969c62cb647406aa88c1b5376dcf58968 (HEAD -\&gt; master, origin/master, origin/HEAD)
 
-Author: Ben Dover \<noone@overthewire.org\>
+Author: Ben Dover \&lt;noone@overthewire.org\&gt;
 
 Date: Tue Oct 14 09:26:22 2025 +0000
 
@@ -91,7 +91,7 @@ initial commit of README.md
 
 \* master
 
-remotes/origin/HEAD -\> origin/master
+remotes/origin/HEAD -\&gt; origin/master
 
 remotes/origin/master
 

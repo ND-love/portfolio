@@ -5,7 +5,7 @@
 
 Разбор по частям команды:
 
-nc -l -p 12345 -q 1 \< /etc/bandit_pass/bandit20 \> ./p21 &
+nc -l -p 12345 -q 1 \&lt; /etc/bandit_pass/bandit20 \&gt; ./p21 &
 
 ./suconnect 12345
 
@@ -13,19 +13,19 @@ wait \$pid
 
 cat ./p21
 
-**1) nc -l -p 12345 -q 1 \< \... \> \... &**
+**1) nc -l -p 12345 -q 1 \&lt; \... \&gt; \... &**
 
 - nc --- netcat.
 
 - -l --- слушать входящее TCP-соединение.
 
-- -p 12345 --- порт прослушивания. Любой \>1024.
+- -p 12345 --- порт прослушивания. Любой \&gt;1024.
 
 - -q 1 --- после конца stdin **подождать 1 секунду** и выйти. Нужно, чтобы успеть принять ответ от suconnect после того как мы уже «отправили» пароль.
 
-- \< /etc/bandit_pass/bandit20 --- подаёт содержимое файла в **stdin** nc. То есть при подключении клиент сразу получает строку с паролем bandit20.
+- \&lt; /etc/bandit_pass/bandit20 --- подаёт содержимое файла в **stdin** nc. То есть при подключении клиент сразу получает строку с паролем bandit20.
 
-- \> ./p21 --- пишет **stdout** nc в файл. Туда попадёт ответ сервиса (пароль bandit21).
+- \&gt; ./p21 --- пишет **stdout** nc в файл. Туда попадёт ответ сервиса (пароль bandit21).
 
 - & --- запустить всё это в фоне, чтобы сразу выполнить следующую команду в том же окне.
 
@@ -47,7 +47,7 @@ cat ./p21
 
 Вывод:
 
-bandit20@bandit:\~\$ nc -l -p 12345 -q 1 \< /etc/bandit_pass/bandit20 \> ./p21 &
+bandit20@bandit:\~\$ nc -l -p 12345 -q 1 \&lt; /etc/bandit_pass/bandit20 \&gt; ./p21 &
 
 ./suconnect 12345
 
@@ -57,7 +57,7 @@ cat ./p21
 
 \[3\] 47
 
-\[1\] **Done** nc -l -p 12345 -q 5 \< /etc/bandit_pass/bandit20 \> /tmp/p21
+\[1\] **Done** nc -l -p 12345 -q 5 \&lt; /etc/bandit_pass/bandit20 \&gt; /tmp/p21
 
 -bash: ./p21: **Permission** denied
 
@@ -65,7 +65,7 @@ cat ./p21
 
 **Password** matches, sending next password
 
-\[3\]+ **Exit** 1 nc -l -p 12345 -q 1 \< /etc/bandit_pass/bandit20 \> ./p21
+\[3\]+ **Exit** 1 nc -l -p 12345 -q 1 \&lt; /etc/bandit_pass/bandit20 \&gt; ./p21
 
 **[EeoULMCra2q0dSkYj561DX7s1CpBuOBt]\{.mark\}**
 

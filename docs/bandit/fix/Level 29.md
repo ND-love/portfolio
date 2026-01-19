@@ -85,7 +85,7 @@ Some notes for bandit30 of bandit.
 
 \- username: bandit30
 
-\- password: \<no passwords in production!\>
+\- password: \&lt;no passwords in production!\&gt;
 
  
 
@@ -93,9 +93,9 @@ Some notes for bandit30 of bandit.
 
 └─\$ git log
 
-commit b879c94bd4641ebb8b5470258b3a41debb25f7c2 (HEAD -\> master, origin/master, origin/HEAD)
+commit b879c94bd4641ebb8b5470258b3a41debb25f7c2 (HEAD -\&gt; master, origin/master, origin/HEAD)
 
-Author: Ben Dover \<noone@overthewire.org\>
+Author: Ben Dover \&lt;noone@overthewire.org\&gt;
 
 Date: Tue Oct 14 09:26:20 2025 +0000
 
@@ -107,7 +107,7 @@ fix username
 
 commit 358fb1e671f460043ff5bd372e8d87e228dc148d
 
-Author: Ben Dover \<noone@overthewire.org\>
+Author: Ben Dover \&lt;noone@overthewire.org\&gt;
 
 Date: Tue Oct 14 09:26:20 2025 +0000
 
@@ -127,7 +127,7 @@ initial commit of README.md
 
 \* master
 
-remotes/origin/HEAD -\> origin/master
+remotes/origin/HEAD -\&gt; origin/master
 
 remotes/origin/dev
 
@@ -157,7 +157,7 @@ do so (now or later) by using -c with the switch command. Example:
 
  
 
-git switch -c \<new-branch-name\>
+git switch -c \&lt;new-branch-name\&gt;
 
  
 

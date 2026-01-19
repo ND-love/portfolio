@@ -197,11 +197,11 @@ Enjoy your stay!
 
 WELCOME TO THE UPPERCASE SHELL
 
-\>\> ls -a
+\&gt;\&gt; ls -a
 
 sh: 1: LS: Permission denied
 
-\>\> \$0
+\&gt;\&gt; \$0
 
 \$ cat /etc/bandit_pass/bandit33
 

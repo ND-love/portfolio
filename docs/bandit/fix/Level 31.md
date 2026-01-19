@@ -75,7 +75,7 @@ Branch: master
 
 \* master
 
-remotes/origin/HEAD -\> origin/master
+remotes/origin/HEAD -\&gt; origin/master
 
 remotes/origin/master
 
@@ -149,7 +149,7 @@ git config user.email \"bandit31@local\"
 
 ┌──(kali㉿kali)-\[/tmp/tmp.a7cNF6mRD9/repo\]
 
-└─\$ printf \"May I come in?\\n\" \> key.txt
+└─\$ printf \"May I come in?\\n\" \&gt; key.txt
 
  
 
@@ -237,7 +237,7 @@ remote:
 
 To ssh://bandit.labs.overthewire.org:2220/home/bandit31-git/repo
 
-! \[remote rejected\] master -\> master (pre-receive hook declined)
+! \[remote rejected\] master -\&gt; master (pre-receive hook declined)
 
 error: failed to push some refs to \'ssh://bandit.labs.overthewire.org:2220/home/bandit31-git/repo\' 
 
