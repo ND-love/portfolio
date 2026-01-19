@@ -1,6 +1,6 @@
 ﻿**Здание Irish-Name-Repo 1**
 
-Сайт -- слева сверху выпадающее меню -- admin login -- SQL-инъекция admin' \-- ' (рис 1, 2)
+Сайт -- слева сверху выпадающее меню -> admin login -> SQL-инъекция admin' \-- ' (рис 1, 2)
 
 ![img](media/Здаание_Irish-Name-Repo_1/media/image1.png)
 

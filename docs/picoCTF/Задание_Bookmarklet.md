@@ -4,6 +4,7 @@
 
 Фрагмент кода, приведённый на веб-странице, имеет следующий вид:
 
+```bash
 javascript:(function() {
 
 var encryptedFlag = \"àÒÆÞ¦È¬ëÙ£ÖÓÚåÛÑ¢ÕÓ¡ÒÅ¤í\";
@@ -25,8 +26,10 @@ decryptedFlag += String.fromCharCode(
 alert(decryptedFlag);
 
 })();
+```
 
-**2. В консоль вставляем дешифратор:\**
+**2. В консоль вставляем дешифратор:**
+```bash
 (() =\> {
 
 const encryptedFlag = \"àÒÆÞ¦È¬ëÙ£ÖÓÚåÛÑ¢ÕÓ¡ÒÅ¤í\";
@@ -48,6 +51,6 @@ out += String.fromCharCode(
 console.log(out);
 
 })();
-
+```
 **ОТВЕТ: picoCTF{p@g3_turn3r_0148cb05}**
 
