@@ -5,5 +5,5 @@ has_children: true
 nav_order: 1       
 ---
 
-# bWAPP Solutions
+# bWAPP
 Здесь мои прохождения лаб bWAPP, разбитые по категориям OWASP.
