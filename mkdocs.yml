@@ -1,7 +1,5 @@
-site_name: InfoSec Portfolio
-site_url: https://nd-love.github.io/portfolio/
-repo_url: https://github.com/ND-love/portfolio
-repo_name: ND-love/portfolio
+site_name: ND-love
+site_url: https://github.com/ND-love
 
 # --- НАСТРОЙКИ ТЕМЫ И ЦВЕТОВ ---
 theme:
