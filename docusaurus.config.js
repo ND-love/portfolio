@@ -1,12 +1,5 @@
 // @ts-check
-// `@type` JSDoc annotations allow editor autocompletion and type checking
-// (when paired with `@ts-check`).
-// There are various equivalent ways to declare your Docusaurus config.
-// See: https://docusaurus.io/docs/api/docusaurus-config
-
 import {themes as prismThemes} from 'prism-react-renderer';
-
-// This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
@@ -14,25 +7,15 @@ const config = {
   tagline: 'Кибербезопасность, CTF и исследования',
   favicon: 'img/favicon.ico',
 
-  // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
-  future: {
-    v4: true, // Improve compatibility with the upcoming Docusaurus v4
-  },
-
-  // Set the production url of your site here
   url: 'https://ND-love.github.io',
-  // Set the /<baseUrl>/ pathname under which your site is served
   baseUrl: '/portfolio/',
 
-  // GitHub pages deployment config.
-  organizationName: 'ND-love', // Usually your GitHub org/user name.
-  projectName: 'portfolio', // Usually your repo name.
+  organizationName: 'ND-love',
+  projectName: 'portfolio',
 
-  // Игнорируем битые ссылки (чтобы сборка не падала из-за мелочей)
   onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: 'warn',
 
-  // Ставим русский язык основным
   i18n: {
     defaultLocale: 'ru',
     locales: ['ru'],
@@ -45,19 +28,10 @@ const config = {
       ({
         docs: {
           sidebarPath: './sidebars.js',
-          // Убрали editUrl, чтобы не было ссылки "Редактировать эту страницу"
+          // Убрали ссылку "Edit this page"
         },
-        blog: {
-          showReadingTime: true,
-          // Убрали editUrl
-          feedOptions: {
-            type: ['rss', 'atom'],
-            xslt: true,
-          },
-          onInlineTags: 'warn',
-          onInlineAuthors: 'warn',
-          onUntruncatedBlogPosts: 'warn',
-        },
+        // ОТКЛЮЧАЕМ БЛОГ ПОЛНОСТЬЮ
+        blog: false, 
         theme: {
           customCss: './src/css/custom.css',
         },
@@ -68,10 +42,9 @@ const config = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
-      // Replace with your project's social card
       image: 'img/docusaurus-social-card.jpg',
       colorMode: {
-        defaultMode: 'dark', // По умолчанию темная тема
+        defaultMode: 'dark',
         respectPrefersColorScheme: true,
       },
       navbar: {
@@ -82,16 +55,15 @@ const config = {
         },
         items: [
           {
-            // Главная ссылка на твои райтапы
+            // МАГИЯ ЗДЕСЬ:
+            // Мы убрали жесткую ссылку 'to: ...'
+            // Теперь Docusaurus САМ найдет первую страницу в меню и откроет её.
             type: 'docSidebar',
             sidebarId: 'tutorialSidebar',
             position: 'left',
             label: 'Мои Райтапы',
-            // Ссылка ведет сразу на первый уровень Bandit (проверь, что файл так называется)
-            // Если будет 404, поменяй на '/docs/'
-            to: '/docs/bandit/Level 00', 
           },
-          {to: '/blog', label: 'Блог', position: 'left'},
+          // Ссылку на Блог удалили
           {
             href: 'https://github.com/ND-love/portfolio',
             label: 'GitHub',
@@ -107,11 +79,8 @@ const config = {
             items: [
               {
                 label: 'Райтапы',
-                to: '/docs/bandit/Level 00',
-              },
-              {
-                label: 'Блог',
-                to: '/blog',
+                // В футере тоже ссылаемся просто на docs, движок сам перенаправит
+                to: '/docs/bandit/Level 00', 
               },
             ],
           },
@@ -130,7 +99,6 @@ const config = {
       prism: {
         theme: prismThemes.github,
         darkTheme: prismThemes.dracula,
-        // Добавляем языки, нужные хакеру
         additionalLanguages: ['bash', 'diff', 'json', 'python', 'sql'],
       },
     }),
