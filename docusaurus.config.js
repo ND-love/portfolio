@@ -55,15 +55,11 @@ const config = {
         },
         items: [
           {
-            // МАГИЯ ЗДЕСЬ:
-            // Мы убрали жесткую ссылку 'to: ...'
-            // Теперь Docusaurus САМ найдет первую страницу в меню и откроет её.
-            type: 'docSidebar',
-            sidebarId: 'tutorialSidebar',
+            // Ссылка ведет на твою новую страницу-обзор
+            to: '/docs/intro', 
             position: 'left',
             label: 'Мои Райтапы',
           },
-          // Ссылку на Блог удалили
           {
             href: 'https://github.com/ND-love/portfolio',
             label: 'GitHub',
