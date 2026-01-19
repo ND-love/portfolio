@@ -45,3 +45,29 @@
     border-left: none;
     margin-left: 0;
 }
+
+/* Это решит проблему с "обрезанными" заголовками на твоих скриншотах */
+.md-sidebar__scrollwrap {
+    -webkit-mask-image: none !important;
+    mask-image: none !important;
+}
+
+/* 2. Раздвигаем сайт вширь (Больше места для текста!) */
+/* По умолчанию там 1200px, мы ставим 95% от ширины экрана */
+.md-grid {
+    max-width: 95% !important;
+    margin-right: auto !important;
+    margin-left: auto !important;
+}
+
+/* 3. Немного увеличим отступы между меню и текстом, чтобы не слипалось */
+.md-content {
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+
+/* 4. Исправляем фон заголовков в меню (чтобы не было белых полос) */
+.md-nav__title {
+    background-color: transparent !important;
+    box-shadow: none !important;
+}
