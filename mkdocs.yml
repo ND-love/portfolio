@@ -44,6 +44,8 @@ theme:
 # --- CSS СТИЛИ ---
 extra_css:
   - stylesheets/extra.css
+extra_javascript:
+  - javascripts/collapse.js
 
 # --- MARKDOWN ПЛАГИНЫ ---
 markdown_extensions:
