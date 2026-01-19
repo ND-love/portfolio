@@ -1,7 +1,7 @@
 ---
 layout: default
 title: 📂 A1 - Injection - low
-parent: bWAPP Labs
+parent: 📂 bWAPP Labs
 has_children: true
 ---
 

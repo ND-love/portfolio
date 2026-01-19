@@ -1,7 +1,7 @@
 ---
 layout: default
 title: 📂 SQL Injection
-parent: PortSwigger Labs
+parent: 📂 PortSwigger Labs
 has_children: true
 ---
 

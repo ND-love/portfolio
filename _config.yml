@@ -1,9 +1,11 @@
 title: Портфолио
 remote_theme: just-the-docs/just-the-docs
-color_scheme: dark
+
 
 # Включаем поиск
 search_enabled: true
+
+color_scheme: dark
 
 # Настройки меню
 aux_links:
