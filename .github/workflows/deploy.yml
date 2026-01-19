@@ -17,7 +17,7 @@ jobs:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
         with:
-          node-version: 18
+          node-version: 20
           cache: npm
           # Если проект лежит в папке my-portfolio, раскомментируй строку ниже:
           # cache-dependency-path: my-portfolio/package-lock.json
