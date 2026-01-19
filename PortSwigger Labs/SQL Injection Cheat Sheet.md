@@ -1,8 +1,8 @@
 ---
 layout: default
 title: SQL Injection Cheat Sheet
-parent: SQL Injection
-grand_parent: PortSwigger Labs
+parent: PortSwigger Labs
+grand_parent: 
 nav_order: 10
 ---
 
