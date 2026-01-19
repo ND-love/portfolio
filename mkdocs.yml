@@ -5,15 +5,14 @@ site_url: https://github.com/ND-love
 theme:
   name: material
   language: ru
-  custom_dir: docs
+  custom_dir: docs 
   
-  # Спокойная цветовая схема (VS Code Style)
   palette:
-    # Темная тема
+    # Темная тема (VS Code Style)
     - media: "(prefers-color-scheme: dark)"
       scheme: slate
-      primary: blue-grey  # Серо-синяя шапка
-      accent: indigo      # Синие ссылки
+      primary: blue-grey
+      accent: indigo
       toggle:
         icon: material/weather-night
         name: Switch to light mode
@@ -29,22 +28,17 @@ theme:
 
   # --- НАСТРОЙКИ МЕНЮ (ДЕРЕВО) ---
   features:
+    - navigation.expand       # Стрелочки раскрытия
+    - navigation.instant
+    - navigation.tracking     # Меню следит за тобой
+    - navigation.top
+    - content.code.copy
 
-    - navigation.expand       # Добавляет стрелочки ▾ для папок
-    - navigation.indexes      # Позволяет кликать на название папки, чтобы открыть её index.md
-    - navigation.instant      # Мгновенная загрузка страниц
-    - navigation.tracking     # Меню само прокручивается к открытому файлу
-    
-    - navigation.top          # Кнопка "Наверх"
-    - content.code.copy       # Кнопка копирования кода
-    - search.suggest
-    - search.highlight
-
-# --- ПОДКЛЮЧЕНИЕ СТИЛЕЙ ---
+# --- CSS СТИЛИ ---
 extra_css:
   - stylesheets/extra.css
 
-# --- НАСТРОЙКИ MARKDOWN ---
+# --- MARKDOWN ---
 markdown_extensions:
   - admonition
   - pymdownx.details
@@ -59,3 +53,17 @@ markdown_extensions:
 
 plugins:
   - search
+
+# --- САМОЕ ВАЖНОЕ: РУЧНОЕ ДЕРЕВО ---
+# Здесь мы строим структуру сами.
+# Формат: "- Название в меню: путь/к/файлу.md"
+nav:
+  - 'Мое портфолио': index.md
+  
+  - 'bWAPP Labs':
+      - 'Injection (Low)': 'bWAPP/A1 - Injection - low/SQL Injection (GETSelect).md'
+      
+  - 'PortSwigger Labs':
+      - 'SQL Injection':
+          - 'Введение': 'PortSwigger Labs/SQL Injection/index.md'
+      - 'Шпаргалка (Cheat Sheet)': 'PortSwigger Labs/SQL Injection Cheat Sheet.md'
