@@ -1,24 +1,23 @@
-site_name: ND-love
+site_name: Портфолию Д.Р.
 site_url: https://github.com/ND-love
 
-# --- НАСТРОЙКИ ТЕМЫ И ЦВЕТОВ ---
+# --- ТЕМА И ЦВЕТА ---
 theme:
   name: material
   language: ru
-  # Подключаем твой файл стилей (extra.css), чтобы работали цвета VS Code
-  custom_dir: docs 
+  custom_dir: docs # Обязательно для твоих кастомных цветов VS Code
   
   palette:
-    # Темная тема
+    # Темная тема (твоя настроенная)
     - media: "(prefers-color-scheme: dark)"
       scheme: slate
-      primary: blue-grey  # Цвет шапки (Серо-синий)
-      accent: indigo      # Цвет ссылок (Спокойный синий)
+      primary: blue-grey
+      accent: indigo
       toggle:
         icon: material/weather-night
         name: Switch to light mode
 
-    # Светлая тема (на всякий случай)
+    # Светлая тема
     - media: "(prefers-color-scheme: light)"
       scheme: default
       primary: blue-grey
@@ -27,20 +26,27 @@ theme:
         icon: material/weather-sunny
         name: Switch to dark mode
 
-  # --- ФИШКИ ИНТЕРФЕЙСА ---
+  # --- НАСТРОЙКИ МЕНЮ (САМОЕ ВАЖНОЕ) ---
   features:
-    - navigation.expand      # Раскрывать папки
-    - navigation.top         # Кнопка "Наверх"
-    - navigation.sections    # Делает заголовки разделов жирными
-    - search.suggest         # Подсказки
-    - search.highlight       # Подсветка поиска
-    - content.code.copy      # Кнопка копирования
+    - navigation.expand       # Добавляет стрелочки (раскрыть/закрыть папку)
+    - navigation.indexes      # Делает название папки кликабельным (если внутри есть index.md)
+    # - navigation.sections   # <--- Я УБРАЛ ЭТО. Именно оно ломало "дерево" и делало заголовки жирными
+    # - navigation.tabs       # <--- Тоже убрано, чтобы меню было строго слева
+    
+    - navigation.instant      # Сайт грузится мгновенно (без белого моргания)
+    - navigation.tracking     # Сайдбар автоматически подсвечивает файл, который ты читаешь
+    - navigation.path         # Хлебные крошки сверху (Главная > bWAPP > Injection)
+    
+    - navigation.top          # Кнопка "Наверх"
+    - search.suggest
+    - search.highlight
+    - content.code.copy       # Кнопка копировать код
 
-# --- ПОДКЛЮЧАЕМ ТВОЙ CSS ФАЙЛ ---
+# --- ПОДКЛЮЧАЕМ ТВОЙ СТИЛЬ VS CODE ---
 extra_css:
-  - stylesheets/extra.css  # Убедись, что файл лежит в docs/stylesheets/extra.css
+  - stylesheets/extra.css
 
-# --- НАСТРОЙКИ MARKDOWN ---
+# --- MARKDOWN ---
 markdown_extensions:
   - admonition
   - pymdownx.details
