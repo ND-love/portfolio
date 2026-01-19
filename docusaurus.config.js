@@ -5,7 +5,7 @@ import {themes as prismThemes} from 'prism-react-renderer';
 const config = {
   title: 'Портфолио Д.Р.',
   tagline: 'Кибербезопасность, CTF и исследования',
-  favicon: 'img/favicon.ico',
+  favicon: 'img/ico.png',
 
   url: 'https://ND-love.github.io',
   baseUrl: '/portfolio/',
@@ -62,7 +62,7 @@ const config = {
         title: 'Портфолио Д.Р.',
         logo: {
           alt: 'Logo',
-          src: 'img/logo.svg',
+          src: 'img/ico.png',
         },
         items: [
           {
