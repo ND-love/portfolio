@@ -1,8 +1,8 @@
 ---
 layout: default
 title: HTML Injection (Low)
-parent: A1 - Injection  # Ссылка на title из Шага 2
-grand_parent: bWAPP Labs # Ссылка на title из Шага 1
+parent: A1 - Injection - low
+grand_parent: bWAPP Labs
 ---
 **SQL Injection (GET/Search)** - **(low)**
 

@@ -1,8 +1,8 @@
 ---
 layout: default
-title: A1 - Injection - low  # Это название должно точно совпадать с папкой
-parent: bWAPP Labs     # Ссылка на title из Шага 1
-has_children: true     # Внутри будут райтапы
+title: A1 - Injection - low
+parent: bWAPP Labs
+has_children: true
 ---
 
 # A1 - Injection
