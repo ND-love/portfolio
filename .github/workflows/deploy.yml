@@ -1,0 +1,40 @@
+name: Deploy to GitHub Pages
+
+on:
+  push:
+    branches:
+      - main
+    # Если твоя ветка называется master, поменяй main на master
+
+permissions:
+  contents: write
+
+jobs:
+  deploy:
+    name: Deploy to GitHub Pages
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 18
+          cache: npm
+          # Если проект лежит в папке my-portfolio, раскомментируй строку ниже:
+          # cache-dependency-path: my-portfolio/package-lock.json
+
+      - name: Install Dependencies
+        # Если проект лежит в папке my-portfolio, добавь: working-directory: my-portfolio
+        run: npm ci
+
+      - name: Build Website
+        # Если проект лежит в папке my-portfolio, добавь: working-directory: my-portfolio
+        run: npm run build
+
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          # Если проект в корне, то publish_dir: ./build
+          # Если в папке my-portfolio, то:
+          publish_dir: ./build
+          # Или ./my-portfolio/build (проверь, где создается папка build)
