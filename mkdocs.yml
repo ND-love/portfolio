@@ -3,50 +3,57 @@ site_url: https://nd-love.github.io/portfolio/
 repo_url: https://github.com/ND-love/portfolio
 repo_name: ND-love/portfolio
 
-# Тема Material
+# --- НАСТРОЙКИ ТЕМЫ И ЦВЕТОВ ---
 theme:
   name: material
   language: ru
-  # Включаем ночной режим и переключатель
+  # Подключаем твой файл стилей (extra.css), чтобы работали цвета VS Code
+  custom_dir: docs 
+  
   palette:
-    # Темная тема (по умолчанию)
+    # Темная тема
     - media: "(prefers-color-scheme: dark)"
       scheme: slate
-      primary: teal    # Цвет шапки
-      accent: purple   # Цвет ссылок (Фиолетовый)
+      primary: blue-grey  # Цвет шапки (Серо-синий)
+      accent: indigo      # Цвет ссылок (Спокойный синий)
       toggle:
         icon: material/weather-night
         name: Switch to light mode
-    # Светлая тема
+
+    # Светлая тема (на всякий случай)
     - media: "(prefers-color-scheme: light)"
       scheme: default
-      primary: teal
-      accent: purple
+      primary: blue-grey
+      accent: indigo
       toggle:
         icon: material/weather-sunny
         name: Switch to dark mode
-  # Фишки интерфейса
+
+  # --- ФИШКИ ИНТЕРФЕЙСА ---
   features:
-    - navigation.tabs        # Верхнее меню как вкладки
     - navigation.expand      # Раскрывать папки
     - navigation.top         # Кнопка "Наверх"
-    - search.suggest         # Подсказки в поиске
-    - search.highlight       # Подсветка найденного
-    - content.code.copy      # Кнопка "Копировать" в коде!
+    - navigation.sections    # Делает заголовки разделов жирными
+    - search.suggest         # Подсказки
+    - search.highlight       # Подсветка поиска
+    - content.code.copy      # Кнопка копирования
 
-# Настройки Markdown (включаем крутую подсветку)
+# --- ПОДКЛЮЧАЕМ ТВОЙ CSS ФАЙЛ ---
+extra_css:
+  - stylesheets/extra.css  # Убедись, что файл лежит в docs/stylesheets/extra.css
+
+# --- НАСТРОЙКИ MARKDOWN ---
 markdown_extensions:
-  - admonition               # Блоки "Внимание", "Info"
-  - pymdownx.details         # Сворачиваемые блоки
-  - pymdownx.superfences     # Крутые блоки кода
-  - pymdownx.highlight:      # Подсветка синтаксиса
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.highlight:
       anchor_linenums: true
       line_spans: __span
       pygments_lang_class: true
   - pymdownx.inlinehilite
   - pymdownx.snippets
-  - tables                   # Красивые таблицы
+  - tables
 
-# Плагины
 plugins:
-  - search                   # Поиск работает сразу
+  - search
