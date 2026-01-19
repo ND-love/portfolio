@@ -43,7 +43,7 @@ echo \"Handling \$i\"
 
 owner=\"\$(stat \--format \"%U\" ./\$i)\"
 
-if \[ \"\${owner}\" = \"bandit23\" \]; then
+if \[ \"\$\{owner\}\" = \"bandit23\" \]; then
 
 timeout -s 9 60 ./\$i
 
@@ -83,7 +83,7 @@ bandit23@bandit:\~\$ sleep 75
 
 cat \"\$OUT\"
 
-[gb8KRRCsshuZXI0tUuR6ypOFjiZbf3G8]{.mark}
+[gb8KRRCsshuZXI0tUuR6ypOFjiZbf3G8]\{.mark\}
 
 bandit23@bandit:\~\$
 

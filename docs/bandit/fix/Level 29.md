@@ -191,7 +191,7 @@ Some notes for bandit30 of bandit.
 
 \- username: bandit30
 
-\- password: [qp30ex3VLz5MDG1n91YowTv4Q8l7CDZL]{.mark}
+\- password: [qp30ex3VLz5MDG1n91YowTv4Q8l7CDZL]\{.mark\}
 
  
 

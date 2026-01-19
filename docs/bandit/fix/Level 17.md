@@ -139,7 +139,7 @@ GFMT (only) may contain:
 
 %= lines common to FILE1 and FILE2
 
-%\[-\]\[WIDTH\]\[.\[PREC\]\]{doxX}LETTER printf-style spec for LETTER
+%\[-\]\[WIDTH\]\[.\[PREC\]\]\{doxX\}LETTER printf-style spec for LETTER
 
 **LETTERs** are as follows for new group, lower case for old group:
 
@@ -161,7 +161,7 @@ LFMT (only) may contain:
 
 %l contents of line, excluding any trailing newline
 
-%\[-\]\[WIDTH\]\[.\[PREC\]\]{doxX}n printf-style spec for input line number
+%\[-\]\[WIDTH\]\[.\[PREC\]\]\{doxX\}n printf-style spec for input line number
 
 **Both** GFMT and LFMT may contain:
 
@@ -219,7 +219,7 @@ bandit17@bandit:\~\$ diff passwords.new passwords.old
 
 42c42
 
-\< [x2gLTTjFwMOhQ8oWNbMN362QKxfRqGlO]{.mark}
+\< [x2gLTTjFwMOhQ8oWNbMN362QKxfRqGlO]\{.mark\}
 
 \-\--
 

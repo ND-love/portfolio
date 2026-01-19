@@ -8,5 +8,5 @@
 
 ![img](media/Задание_Irish-Name-Repo_3/media/image2.png)
 
-**ОТВЕТ: picoCTF{3v3n_m0r3_SQL_06a9db19}**
+**ОТВЕТ: picoCTF\{3v3n_m0r3_SQL_06a9db19\}**
 

@@ -14,5 +14,5 @@
 
 ![img](media/Задание_logon/media/image4.png)
 
-**ОТВЕТ: picoCTF{th3_c0nsp1r4cy_l1v3s_0c98aacc}**
+**ОТВЕТ: picoCTF\{th3_c0nsp1r4cy_l1v3s_0c98aacc\}**
 

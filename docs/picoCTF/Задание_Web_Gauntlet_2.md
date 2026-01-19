@@ -27,5 +27,5 @@ curl http://mercury.picoctf.net:35178/filter.php \
 
 ![img](media/Задание_Web_Gauntlet_2/media/image1.png)
 
-**ОТВЕТ: picoCTF{0n3_m0r3_t1m3_b55c7a5682db6cb0192b28772d4f4131}**
+**ОТВЕТ: picoCTF\{0n3_m0r3_t1m3_b55c7a5682db6cb0192b28772d4f4131\}**
 

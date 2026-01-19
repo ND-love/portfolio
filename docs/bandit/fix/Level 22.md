@@ -57,5 +57,5 @@ echo \"\$h\"
 
 bandit22@bandit:/tmp\$ cat \"/tmp/\$h\"
 
-[0Zf11ioIjMVN551jX3CmStKLYqjk54Ga]{.mark}
+[0Zf11ioIjMVN551jX3CmStKLYqjk54Ga]\{.mark\}
 

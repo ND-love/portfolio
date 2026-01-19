@@ -8,5 +8,5 @@
 
 ![img](media/Задание_picobrowser/media/image2.png)
 
-**ОТВЕТ: picoCTF{p1c0_s3cr3t_ag3nt_84f9c865}**
+**ОТВЕТ: picoCTF\{p1c0_s3cr3t_ag3nt_84f9c865\}**
 

@@ -239,7 +239,7 @@ bandit27-do text.txt
 
 bandit26@bandit:\~\$ ./bandit27-do cat /etc/bandit_pass/bandit27
 
-[upsNCc7vzaRDx6oZC6GiR6ERwe1MowGB]{.mark}
+[upsNCc7vzaRDx6oZC6GiR6ERwe1MowGB]\{.mark\}
 
 bandit26@bandit:\~\$
 

@@ -63,7 +63,7 @@ README
 
 └─\$ cat README
 
-The password to the next level is: [Yz9IpL0sBcCeuG7m9uQFt8ZNpS4HZRcN]{.mark}
+The password to the next level is: [Yz9IpL0sBcCeuG7m9uQFt8ZNpS4HZRcN]\{.mark\}
 
 ┌──(kali㉿kali)-\[/tmp/tmp.1tDfwKfT0e/repo\]
 

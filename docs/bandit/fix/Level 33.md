@@ -201,23 +201,23 @@ README.txt
 
 bandit33@bandit:\~\$ cat README.txt
 
-[Congratulations on solving the last level of this game!]{.mark}
+[Congratulations on solving the last level of this game!]\{.mark\}
 
-[ ]{.mark}
+[ ]\{.mark\}
 
-[At this moment, there are no more levels to play in this game. However, we are constantly working]{.mark}
+[At this moment, there are no more levels to play in this game. However, we are constantly working]\{.mark\}
 
-[on new levels and will most likely expand this game with more levels soon.]{.mark}
+[on new levels and will most likely expand this game with more levels soon.]\{.mark\}
 
-[Keep an eye out for an announcement on our usual communication channels!]{.mark}
+[Keep an eye out for an announcement on our usual communication channels!]\{.mark\}
 
-[In the meantime, you could play some of our other wargames.]{.mark}
+[In the meantime, you could play some of our other wargames.]\{.mark\}
 
-[ ]{.mark}
+[ ]\{.mark\}
 
-[If you have an idea for an awesome new level, please let us know!]{.mark}
+[If you have an idea for an awesome new level, please let us know!]\{.mark\}
 
-[bandit33@bandit:\~\$]{.mark}
+[bandit33@bandit:\~\$]\{.mark\}
 
  
 

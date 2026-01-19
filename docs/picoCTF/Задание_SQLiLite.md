@@ -4,5 +4,5 @@
 
 ![img](media/Задание_SQLiLite/media/image1.png)
 
-**ОТВЕТ: picoCTF{L00k5_l1k3_y0u_solv3d_it_d3c660ac}**
+**ОТВЕТ: picoCTF\{L00k5_l1k3_y0u_solv3d_it_d3c660ac\}**
 

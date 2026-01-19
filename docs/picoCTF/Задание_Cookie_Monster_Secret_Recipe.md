@@ -4,5 +4,5 @@
 
 ![img](media/Задание_Cookie_Monster_Secret_Recipe/media/image1.png)
 
-**ОТВЕТ: picoCTF{c00k1e_m0nster_l0ves_c00kies_C430AE20}**
+**ОТВЕТ: picoCTF\{c00k1e_m0nster_l0ves_c00kies_C430AE20\}**
 

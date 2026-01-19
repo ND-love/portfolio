@@ -205,7 +205,7 @@ sh: 1: LS: Permission denied
 
 \$ cat /etc/bandit_pass/bandit33
 
-[tQdtbs5D5i2vJwkO8mEyYEyTL8izoeJ0]{.mark}
+[tQdtbs5D5i2vJwkO8mEyYEyTL8izoeJ0]\{.mark\}
 
 \$
 

@@ -6,5 +6,5 @@
 
 ![img](media/Здаание_Irish-Name-Repo_1/media/image2.png)
 
-**ОТВЕТ: picoCTF{s0m3_SQL_f8adf3fb}**
+**ОТВЕТ: picoCTF\{s0m3_SQL_f8adf3fb\}**
 

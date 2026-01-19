@@ -8,7 +8,7 @@
 
 ![img](media/Задание_findme/media/image2.png)
 
-![Декодируем base64 и видим первую часть флага picoCTF{proxies_al (рис 3)](media/Задание_findme/media/image3.png)
+![Декодируем base64 и видим первую часть флага picoCTF\{proxies_al (рис 3)](media/Задание_findme/media/image3.png)
 
 Рисунок 3
 
@@ -16,5 +16,5 @@
 
 ![img](media/Задание_findme/media/image4.png)
 
-**ОТВЕТ: picoCTF{proxies_all_the_way_25bbae9a}**
+**ОТВЕТ: picoCTF\{proxies_all_the_way_25bbae9a\}**
 

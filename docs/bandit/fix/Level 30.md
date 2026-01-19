@@ -105,7 +105,7 @@ secret
 
 └─\$ git show secret
 
-[fb5S2xb7bRyFmAvQYQGEqsbhVyJqhnDy]{.mark}
+[fb5S2xb7bRyFmAvQYQGEqsbhVyJqhnDy]\{.mark\}
 
 ┌──(kali㉿kali)-\[/tmp/tmp.AxV6c0Puqf/repo\]
 

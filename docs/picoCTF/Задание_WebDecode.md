@@ -8,5 +8,5 @@
 
 ![img](media/Задание_WebDecode/media/image2.png)
 
-**ОТВЕТ: picoCTF{web_succ3ssfully_d3c0ded_df0da727}**
+**ОТВЕТ: picoCTF\{web_succ3ssfully_d3c0ded_df0da727\}**
 

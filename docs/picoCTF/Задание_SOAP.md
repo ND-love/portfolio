@@ -16,5 +16,5 @@
 
 \<data\>\<ID\>&file;\</ID\>\</data\>
 ```
-**ОТВЕТ: picoCTF{XML_3xtern@l_3nt1t1ty_0dcf926e}**
+**ОТВЕТ: picoCTF\{XML_3xtern@l_3nt1t1ty_0dcf926e\}**
 

@@ -16,5 +16,5 @@
 
 ![img](media/Задание_login/media/image4.png)
 
-**ОТВЕТ: picoCTF{53rv3r_53rv3r_53rv3r_53rv3r_53rv3r}**
+**ОТВЕТ: picoCTF\{53rv3r_53rv3r_53rv3r_53rv3r_53rv3r\}**
 

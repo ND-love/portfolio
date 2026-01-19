@@ -4,5 +4,5 @@
 
 ![img](media/Задание_Inspect_HTML/media/image1.png)
 
-**ОТВЕТ: picoCTF{1n5p3t0r_0f_h7ml_8113f7e2}**
+**ОТВЕТ: picoCTF\{1n5p3t0r_0f_h7ml_8113f7e2\}**
 

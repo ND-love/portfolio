@@ -17,5 +17,5 @@
 
 ![img](media/Задание_JAuth/media/image4.png)
 
-**ОТВЕТ: picoCTF{succ3ss\_@u7h3nt1c@710n_3444eacf}**
+**ОТВЕТ: picoCTF\{succ3ss\_@u7h3nt1c@710n_3444eacf\}**
 

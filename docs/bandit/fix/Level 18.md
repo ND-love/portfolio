@@ -31,5 +31,5 @@ backend: gibson-0
 
 bandit18@bandit.labs.overthewire.org\'s password:
 
-[cGWpMaKXVwDUNgPAVJbWYuGHVn9zl3j8]{.mark}
+[cGWpMaKXVwDUNgPAVJbWYuGHVn9zl3j8]\{.mark\}
 

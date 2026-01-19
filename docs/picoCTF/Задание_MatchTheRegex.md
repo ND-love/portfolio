@@ -4,5 +4,5 @@
 
 ![img](media/Задание_MatchTheRegex/media/image1.png)
 
-**ОТВЕТ: picoCTF{succ3ssfully_matchtheregex_9080e406}**
+**ОТВЕТ: picoCTF\{succ3ssfully_matchtheregex_9080e406\}**
 

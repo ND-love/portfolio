@@ -12,5 +12,5 @@
 
 ![img](media/Задание_JaWT_Scratchpad/media/image3.png)
 
-**ОТВЕТ: picoCTF{jawt_was_just_what_you_thought_f859ab2f}**
+**ОТВЕТ: picoCTF\{jawt_was_just_what_you_thought_f859ab2f\}**
 

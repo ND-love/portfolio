@@ -8,5 +8,5 @@
 
 ![img](media/Задание_Unminify/media/image2.png)
 
-**ОТВЕТ: picoCTF{pr3tty_c0d3_ed938a7e}**
+**ОТВЕТ: picoCTF\{pr3tty_c0d3_ed938a7e\}**
 

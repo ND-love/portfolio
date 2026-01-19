@@ -12,5 +12,5 @@
 
 ![img](media/Задание_where_are_the_robots/media/image3.png)
 
-**ОТВЕТ: picoCTF{ca1cu1at1ng_Mach1n3s_477ce}**
+**ОТВЕТ: picoCTF\{ca1cu1at1ng_Mach1n3s_477ce\}**
 

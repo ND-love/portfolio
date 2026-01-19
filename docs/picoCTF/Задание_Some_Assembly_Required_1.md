@@ -8,5 +8,5 @@
 
 ![img](media/Задание_Some_Assembly_Required_1/media/image2.png)
 
-**ОТВЕТ: picoCTF{a8bae10f4d9544110222c2d639dc6de6}**
+**ОТВЕТ: picoCTF\{a8bae10f4d9544110222c2d639dc6de6\}**
 

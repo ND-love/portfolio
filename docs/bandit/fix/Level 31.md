@@ -213,7 +213,7 @@ remote:
 
 remote: Well done! Here is the password for the next level:
 
-remote: [3O9RfhqyAlVBEZpVb6LYStshZoqoSx5K]{.mark}
+remote: [3O9RfhqyAlVBEZpVb6LYStshZoqoSx5K]\{.mark\}
 
 remote:
 

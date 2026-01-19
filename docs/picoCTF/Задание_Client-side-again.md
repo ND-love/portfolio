@@ -8,5 +8,5 @@
 
 ![img](media/Задание_Client-side-again/media/image2.png)
 
-**ОТВЕТ: picoCTF{not_this_again_50a029}**
+**ОТВЕТ: picoCTF\{not_this_again_50a029\}**
 

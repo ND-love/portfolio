@@ -13,5 +13,5 @@
 
 ![img](media/Задание_More_SQLi/media/image3.png)
 
-**ОТВЕТ: picoCTF{G3tting_5QL_1nJ3c7I0N_l1k3_y0u_sh0ulD_98236ce6}**
+**ОТВЕТ: picoCTF\{G3tting_5QL_1nJ3c7I0N_l1k3_y0u_sh0ulD_98236ce6\}**
 

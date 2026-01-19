@@ -1,6 +1,6 @@
 ﻿**Задание Scavenger Hunt**
 
-Первая часть флага лежит в коде страницы (рис 1) picoCTF{t
+Первая часть флага лежит в коде страницы (рис 1) picoCTF\{t
 
 ![img](media/Задание_Scavenger_Hunt/media/image1.png)
 
@@ -16,9 +16,9 @@
 
 ![](media/Задание_Scavenger_Hunt/media/image4.png)
 
-Проверим /.DS_Store (рис 5) \_7a46d25d}
+Проверим /.DS_Store (рис 5) \_7a46d25d\}
 
 ![](media/Задание_Scavenger_Hunt/media/image5.png)
 
-**ОТВЕТ: picoCTF{th4ts_4_l0t_0f_pl4c3s_2_lO0k \_7a46d25d}**
+**ОТВЕТ: picoCTF\{th4ts_4_l0t_0f_pl4c3s_2_lO0k \_7a46d25d\}**
 

@@ -4,5 +4,5 @@
 
 ![img](media/Задание_Forbidden_Paths/media/image1.png)
 
-**ОТВЕТ: picoCTF{7h3_p47h_70_5ucc355_e5a6fcbc}**
+**ОТВЕТ: picoCTF\{7h3_p47h_70_5ucc355_e5a6fcbc\}**
 

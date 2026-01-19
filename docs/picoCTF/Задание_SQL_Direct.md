@@ -4,5 +4,5 @@
 
 ![img](media/Задание_SQL_Direct/media/image1.png)
 
-**ОТВЕТ: picoCTF{L3arN_S0m3_5qL_t0d4Y_73b0678f}**
+**ОТВЕТ: picoCTF\{L3arN_S0m3_5qL_t0d4Y_73b0678f\}**
 

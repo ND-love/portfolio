@@ -4,5 +4,5 @@
 
 ![img](media/Задание_Power_Cookie/media/image1.png)
 
-**ОТВЕТ: picoCTF{gr4d3_A_c00k13_65fd1e1a}**
+**ОТВЕТ: picoCTF\{gr4d3_A_c00k13_65fd1e1a\}**
 

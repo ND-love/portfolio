@@ -15,5 +15,5 @@
 
 ![img](media/Задание_dont-use-client-side/media/image4.png)
 
-**ОТВЕТ: picoCTF{no_clients_plz_1a3c89}**
+**ОТВЕТ: picoCTF\{no_clients_plz_1a3c89\}**
 

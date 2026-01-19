@@ -24,5 +24,5 @@
 
 ![img](media/Задание_Who_are_you/media/image6.png)
 
-**ОТВЕТ: picoCTF{http_h34d3rs_v3ry_c0Ol_much_w0w_0c0db339}**
+**ОТВЕТ: picoCTF\{http_h34d3rs_v3ry_c0Ol_much_w0w_0c0db339\}**
 

@@ -52,5 +52,5 @@ console.log(out);
 
 })();
 ```
-**ОТВЕТ: picoCTF{p@g3_turn3r_0148cb05}**
+**ОТВЕТ: picoCTF\{p@g3_turn3r_0148cb05\}**
 

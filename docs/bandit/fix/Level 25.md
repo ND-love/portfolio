@@ -25,7 +25,7 @@ shell=/esr/bin/showtext
 
 bandit26@bandit:\~\$ cat /etc/bandit\\\_pass/bandit26
 
-[s0773xxkk0MXfdqOfPRVr9L3jJBUOgCZ]{.mark}
+[s0773xxkk0MXfdqOfPRVr9L3jJBUOgCZ]\{.mark\}
 
 bandit26@bandit:\~\$
 

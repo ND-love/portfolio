@@ -7,7 +7,7 @@ I am the pincode checker for user bandit25. **Please** enter the password for us
 
 **Correct**!
 
-**The** password of user bandit25 is [iCi86ttT4KSNe1armKiwbQNmB3YJP3q4]{.mark}
+**The** password of user bandit25 is [iCi86ttT4KSNe1armKiwbQNmB3YJP3q4]\{.mark\}
 
  
 

@@ -67,7 +67,7 @@ cat ./p21
 
 \[3\]+ **Exit** 1 nc -l -p 12345 -q 1 \< /etc/bandit_pass/bandit20 \> ./p21
 
-**[EeoULMCra2q0dSkYj561DX7s1CpBuOBt]{.mark}**
+**[EeoULMCra2q0dSkYj561DX7s1CpBuOBt]\{.mark\}**
 
 cat: ./p21: **No** such file or directory
 

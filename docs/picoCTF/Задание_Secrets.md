@@ -16,5 +16,5 @@
 
 ![img](media/Задание_Secrets/media/image4.png)
 
-**ОТВЕТ: picoCTF{succ3ss\_@h3n1c@10n_51b260fe}**
+**ОТВЕТ: picoCTF\{succ3ss\_@h3n1c@10n_51b260fe\}**
 

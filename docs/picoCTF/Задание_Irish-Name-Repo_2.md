@@ -6,7 +6,7 @@
 
 ![img](media/Задание_Irish-Name-Repo_2/media/image2.png)
 
-**ОТВЕТ: picoCTF{m0R3_SQL_plz_c34df170}**
+**ОТВЕТ: picoCTF\{m0R3_SQL_plz_c34df170\}**
 
 _да странно, но SQL-инъекция подошла снова_
 

@@ -8,5 +8,5 @@
 
 ![img](media/Задание_IntroToBurp/media/image2.png)
 
-**ОТВЕТ: picoCTF{#0TP_Bypvss_SuCc3\$S_3e3ddc76}**
+**ОТВЕТ: picoCTF\{#0TP_Bypvss_SuCc3\$S_3e3ddc76\}**
 

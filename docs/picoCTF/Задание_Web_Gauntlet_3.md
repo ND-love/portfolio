@@ -12,5 +12,5 @@ curl http://mercury.picoctf.net:63504/filter.php --cookie "PHPSESSID=mo5totl5fpn
 
 ![img](media/Задание_Web_Gauntlet_3/media/image1.png)
 
-**ОТВЕТ: picoCTF{k3ep_1t_sh0rt_eb90a623e2c581bcd3127d9d60a4dead}**
+**ОТВЕТ: picoCTF\{k3ep_1t_sh0rt_eb90a623e2c581bcd3127d9d60a4dead\}**
 

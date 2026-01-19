@@ -4,5 +4,5 @@
 
 ![img](media/Задание_Search_source/media/image1.png)
 
-**ОТВЕТ: picoCTF{1nsp3ti0n_0f_w3bpag3s_ec95fa49}**
+**ОТВЕТ: picoCTF\{1nsp3ti0n_0f_w3bpag3s_ec95fa49\}**
 

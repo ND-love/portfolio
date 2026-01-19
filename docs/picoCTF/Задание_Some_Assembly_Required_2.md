@@ -4,5 +4,5 @@
 
 ![img](media/Задание_Some_Assembly_Required_2/media/image1.png)
 
-**ОТВЕТ: picoCTF{ef3b0b413475d7c00ee9f1a9b620c7d8}**
+**ОТВЕТ: picoCTF\{ef3b0b413475d7c00ee9f1a9b620c7d8\}**
 

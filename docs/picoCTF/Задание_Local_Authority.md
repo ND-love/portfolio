@@ -12,5 +12,5 @@
 
 ![img](media/Задание_Local_Authority/media/image3.png)
 
-**ОТВЕТ: picoCTF{j5_15_7r4n5p4r3n7_a8788e61}**
+**ОТВЕТ: picoCTF\{j5_15_7r4n5p4r3n7_a8788e61\}**
 
