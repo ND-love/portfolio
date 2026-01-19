@@ -1,6 +1,6 @@
 ---
 layout: default
-title: HTML Injection (Low)
+title: SQL Injection (GET/Search)
 parent: A1 - Injection - low
 grand_parent: bWAPP Labs
 ---
