@@ -32,3 +32,16 @@
 .md-sidebar {
     background-color: #1e1e1e;
 }
+
+/* --- Древовидные линии (Tree Guidelines) --- */
+.md-nav__item .md-nav__list {
+    border-left: 1px solid #444; /* Рисуем серую линию слева */
+    margin-left: 0.5rem;         /* Чуть сдвигаем вправо */
+    padding-left: 0.5rem;        /* Отступ от линии */
+}
+
+/* Убираем линию для самого первого уровня, чтобы не было мусора слева */
+.md-sidebar--primary > .md-sidebar__scrollwrap > .md-nav > .md-nav__list {
+    border-left: none;
+    margin-left: 0;
+}
