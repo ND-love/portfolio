@@ -40,34 +40,68 @@
     padding-left: 0.5rem;        /* Отступ от линии */
 }
 
-/* Убираем линию для самого первого уровня, чтобы не было мусора слева */
-.md-sidebar--primary > .md-sidebar__scrollwrap > .md-nav > .md-nav__list {
-    border-left: none;
-    margin-left: 0;
-}
+/* ==========================================================================
+   1. ГЛОБАЛЬНЫЕ НАСТРОЙКИ (РАБОТАЮТ И В ТЕМНОЙ, И В СВЕТЛОЙ ТЕМЕ)
+   ========================================================================== */
 
-/* Это решит проблему с "обрезанными" заголовками на твоих скриншотах */
-.md-sidebar__scrollwrap {
-    -webkit-mask-image: none !important;
-    mask-image: none !important;
-}
-
-/* 2. Раздвигаем сайт вширь (Больше места для текста!) */
-/* По умолчанию там 1200px, мы ставим 95% от ширины экрана */
+/* --- Раздвигаем сайт вширь (Больше места для контента) --- */
 .md-grid {
     max-width: 95% !important;
     margin-right: auto !important;
     margin-left: auto !important;
 }
 
-/* 3. Немного увеличим отступы между меню и текстом, чтобы не слипалось */
 .md-content {
-    margin-left: 2rem;
-    margin-right: 2rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
 }
 
-/* 4. Исправляем фон заголовков в меню (чтобы не было белых полос) */
-.md-nav__title {
+/* --- Убираем размытые градиенты в меню (делаем четко) --- */
+.md-sidebar__scrollwrap {
+    -webkit-mask-image: none !important;
+    mask-image: none !important;
+}
+
+/* --- Древовидные линии (Tree Guidelines) --- */
+.md-nav__item .md-nav__list {
+    border-left: 1px solid var(--md-default-fg-color--lightest); /* Линия адаптируется под тему */
+    margin-left: 0.5rem;
+    padding-left: 0.5rem;
+}
+
+/* Убираем линию для первого уровня */
+.md-sidebar--primary > .md-sidebar__scrollwrap > .md-nav > .md-nav__list {
+    border-left: none;
+    margin-left: 0;
+}
+
+[data-md-color-scheme="slate"] {
+    /* Переопределяем переменные цветов на VS Code Dark (#1e1e1e) */
+    --md-default-bg-color:        #1e1e1e;
+    --md-default-fg-color:        #d4d4d4;
+    --md-default-fg-color--light: #d4d4d4;
+    
+    /* Цвет ссылок (мягкий синий) */
+    --md-accent-fg-color:         #4ec9b0;
+}
+
+/* Красим шапку в #1e1e1e ТОЛЬКО в темной теме */
+[data-md-color-scheme="slate"] .md-header {
+    background-color: #1e1e1e !important;
+    border-bottom: 1px solid #333;
+}
+
+/* Красим меню в #1e1e1e ТОЛЬКО в темной теме */
+[data-md-color-scheme="slate"] .md-sidebar {
+    background-color: #1e1e1e;
+}
+
+[data-md-color-scheme="slate"] .md-tabs {
+    background-color: #1e1e1e !important;
+}
+
+/* Исправляем фон заголовков в меню для темной темы */
+[data-md-color-scheme="slate"] .md-nav__title {
     background-color: transparent !important;
     box-shadow: none !important;
 }
