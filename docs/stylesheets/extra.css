@@ -1,50 +1,8 @@
-:root {
-  /* --- ЦВЕТА ИНТЕРФЕЙСА (VS Code Dark) --- */
-  
-  /* Основной цвет шапки и активных элементов (СПОКОЙНЫЙ СИНИЙ вместо ядерного фиолетового) */
-  --md-primary-fg-color:        #007acc; 
-  --md-primary-fg-color--light: #007acc;
-  --md-primary-fg-color--dark:  #005f9e;
-
-  /* Цвет ссылок и акцентов (Мягкий голубой) */
-  --md-accent-fg-color:         #4ec9b0; 
-  
-  /* Фон бокового меню (Темно-серый, чтобы не резало глаза) */
-  --md-default-bg-color:        #1e1e1e;
-  
-  /* Фон контента (Чуть светлее меню, классика) */
-  --md-default-fg-color:        #d4d4d4;
-  --md-default-fg-color--light: #d4d4d4;
-}
-
-/* Убираем кислотную тень под шапкой */
-.md-header {
-  background-color: #1e1e1e !important;
-  border-bottom: 1px solid #333;
-}
-
-/* Делаем вкладки меню (tabs) темными */
-.md-tabs {
-  background-color: #1e1e1e !important;
-}
-
-/* Делаем боковое меню темным */
-.md-sidebar {
-    background-color: #1e1e1e;
-}
-
-/* --- Древовидные линии (Tree Guidelines) --- */
-.md-nav__item .md-nav__list {
-    border-left: 1px solid #444; /* Рисуем серую линию слева */
-    margin-left: 0.5rem;         /* Чуть сдвигаем вправо */
-    padding-left: 0.5rem;        /* Отступ от линии */
-}
-
 /* ==========================================================================
    1. ГЛОБАЛЬНЫЕ НАСТРОЙКИ (РАБОТАЮТ И В ТЕМНОЙ, И В СВЕТЛОЙ ТЕМЕ)
    ========================================================================== */
 
-/* --- Раздвигаем сайт вширь (Больше места для контента) --- */
+/* --- Раздвигаем сайт вширь --- */
 .md-grid {
     max-width: 95% !important;
     margin-right: auto !important;
@@ -56,7 +14,7 @@
     margin-right: 1rem;
 }
 
-/* --- Убираем размытые градиенты в меню (делаем четко) --- */
+/* --- Убираем размытые градиенты/маски в меню --- */
 .md-sidebar__scrollwrap {
     -webkit-mask-image: none !important;
     mask-image: none !important;
@@ -64,43 +22,61 @@
 
 /* --- Древовидные линии (Tree Guidelines) --- */
 .md-nav__item .md-nav__list {
-    border-left: 1px solid var(--md-default-fg-color--lightest); /* Линия адаптируется под тему */
+    /* Используем переменную, чтобы линия была видна и на белом, и на черном */
+    border-left: 1px solid var(--md-default-fg-color--lightest);
     margin-left: 0.5rem;
     padding-left: 0.5rem;
 }
 
-/* Убираем линию для первого уровня */
+/* Убираем линию для самого первого уровня меню */
 .md-sidebar--primary > .md-sidebar__scrollwrap > .md-nav > .md-nav__list {
     border-left: none;
     margin-left: 0;
 }
 
+
+/* ==========================================================================
+   2. ТОЛЬКО ТЕМНАЯ ТЕМА (Цвет #1f1f1f + VS Code Style)
+   Эти настройки включаются ТОЛЬКО если выбран ночной режим.
+   ========================================================================== */
 [data-md-color-scheme="slate"] {
-    /* Переопределяем переменные цветов на VS Code Dark (#1e1e1e) */
-    --md-default-bg-color:        #1e1e1e;
+    /* --- ОСНОВНЫЕ ЦВЕТА --- */
+    
+    /* Фон страницы: Твой запрашиваемый #1f1f1f */
+    --md-default-bg-color:        #1f1f1f;
+    
+    /* Цвет текста: Светло-серый (как в VS Code) */
     --md-default-fg-color:        #d4d4d4;
     --md-default-fg-color--light: #d4d4d4;
     
-    /* Цвет ссылок (мягкий синий) */
+    /* Акцентный цвет (ссылки): Мягкий бирюзовый */
     --md-accent-fg-color:         #4ec9b0;
+    
+    /* Основной цвет (заголовки, активные элементы): Спокойный синий */
+    --md-primary-fg-color:        #007acc;
+    --md-primary-fg-color--light: #007acc;
+    --md-primary-fg-color--dark:  #005f9e;
 }
 
-/* Красим шапку в #1e1e1e ТОЛЬКО в темной теме */
+/* --- ПЕРЕКРАШИВАЕМ БЛОКИ В #1f1f1f --- */
+
+/* Шапка */
 [data-md-color-scheme="slate"] .md-header {
-    background-color: #1e1e1e !important;
-    border-bottom: 1px solid #333;
+    background-color: #1f1f1f !important;
+    border-bottom: 1px solid #333; /* Тонкая рамка снизу */
 }
 
-/* Красим меню в #1e1e1e ТОЛЬКО в темной теме */
+/* Боковое меню */
 [data-md-color-scheme="slate"] .md-sidebar {
-    background-color: #1e1e1e;
+    background-color: #1f1f1f !important;
 }
 
+/* Вкладки (если вдруг включишь их обратно) */
 [data-md-color-scheme="slate"] .md-tabs {
-    background-color: #1e1e1e !important;
+    background-color: #1f1f1f !important;
 }
 
-/* Исправляем фон заголовков в меню для темной темы */
+/* Убираем фон у заголовков в меню (чтобы не было полос) */
 [data-md-color-scheme="slate"] .md-nav__title {
     background-color: transparent !important;
     box-shadow: none !important;
