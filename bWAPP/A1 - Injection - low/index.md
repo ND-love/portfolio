@@ -1,6 +1,6 @@
 ---
 layout: default
-title: A1 - Injection - low
+title: 📂 A1 - Injection - low
 parent: bWAPP Labs
 has_children: true
 ---

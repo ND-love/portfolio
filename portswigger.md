@@ -1,6 +1,6 @@
 ---
 layout: default
-title: PortSwigger Labs
+title: 📂 PortSwigger Labs
 has_children: true
 nav_order: 2
 ---

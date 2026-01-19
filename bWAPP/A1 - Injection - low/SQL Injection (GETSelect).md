@@ -1,6 +1,6 @@
 ---
 layout: default
-title: SQL Injection (GET/Search)
+title: 📄 SQL Injection (GET/Search)
 parent: A1 - Injection - low
 grand_parent: bWAPP Labs
 ---
@@ -33,4 +33,4 @@ information_schema.columns where table_name=\'users\'\-- -
 ### См. также
 подробнее ознакомиться с этой темой советую тут: https://portswigger.net/web-security/sql-injection#what-is-sql-injection-sqli
 
-шпаргалка по SQL тут: [SQL Injection Cheat Sheet](<../../PortSwigger Labs/SQL Injection Cheat Sheet.md>)
+шпаргалка по SQL тут: [📄 SQL Injection Cheat Sheet](<../../PortSwigger Labs/SQL Injection Cheat Sheet.md>)

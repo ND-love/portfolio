@@ -1,6 +1,6 @@
 ---
 layout: default
-title: bWAPP Labs  
+title: 📂 bWAPP Labs  
 has_children: true 
 nav_order: 1       
 ---
