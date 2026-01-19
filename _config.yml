@@ -1,0 +1,13 @@
+title: Портфолио
+remote_theme: just-the-docs/just-the-docs
+
+# Включаем поиск
+search_enabled: true
+
+# Настройки меню
+aux_links:
+  "GitHub Repository":
+    - https://github.com/ND-love/portfolio
+
+# Цвет ссылок
+color_scheme: dark
