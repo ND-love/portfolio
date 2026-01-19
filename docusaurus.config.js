@@ -21,6 +21,19 @@ const config = {
     locales: ['ru'],
   },
 
+  // ПОДКЛЮЧАЕМ ПОИСК
+  themes: [
+    [
+      require.resolve("@easyops-cn/docusaurus-search-local"),
+      /** @type {import("@easyops-cn/docusaurus-search-local").PluginOptions} */
+      ({
+        hashed: true,
+        language: ["en", "ru"], // Ищем и по-русски, и по-английски
+        highlightSearchTermsOnTargetPage: true,
+      }),
+    ],
+  ],
+
   presets: [
     [
       'classic',
@@ -28,9 +41,7 @@ const config = {
       ({
         docs: {
           sidebarPath: './sidebars.js',
-          // Убрали ссылку "Edit this page"
         },
-        // ОТКЛЮЧАЕМ БЛОГ ПОЛНОСТЬЮ
         blog: false, 
         theme: {
           customCss: './src/css/custom.css',
@@ -55,7 +66,6 @@ const config = {
         },
         items: [
           {
-            // Ссылка ведет на твою новую страницу-обзор
             to: '/docs/intro', 
             position: 'left',
             label: 'Мои Райтапы',
@@ -67,30 +77,11 @@ const config = {
           },
         ],
       },
+      // ЧИСТЫЙ ФУТЕР (Убрали все лишние ссылки)
       footer: {
         style: 'dark',
-        links: [
-          {
-            title: 'Разделы',
-            items: [
-              {
-                label: 'Райтапы',
-                // В футере тоже ссылаемся просто на docs, движок сам перенаправит
-                to: '/docs/bandit/Level 00', 
-              },
-            ],
-          },
-          {
-            title: 'Контакты',
-            items: [
-              {
-                label: 'GitHub',
-                href: 'https://github.com/ND-love',
-              },
-            ],
-          },
-        ],
-        copyright: `Copyright © ${new Date().getFullYear()} Портфолио Д.Р. Built with Docusaurus.`,
+        links: [], // Пустой массив = нет ссылок
+        copyright: `Copyright © ${new Date().getFullYear()} Портфолио Д.Р.`,
       },
       prism: {
         theme: prismThemes.github,
