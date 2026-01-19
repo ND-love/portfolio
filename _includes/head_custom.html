@@ -1,13 +1,36 @@
 <style>
+    /* --- НАСТРОЙКИ ЦВЕТОВ --- */
 
+    /* 1. Ссылки (оставим рыжими, они хорошо смотрятся на темном) */
     body {
-        --link-color: #ff9800 !important;        
-        --link-color-visited: #ffb74d !important; 
-        --link-color-hover: #ffffff !important;   
+        --link-color: #ff9800 !important;
+        --link-color-visited: #ffb74d !important;
+        --link-color-hover: #ffffff !important;
     }
 
+    /* 2. Блоки кода (ПОДЛОЖКА) */
+    /* Меняем дешевый синий на твой строгий #222125 */
+    code, pre, .highlight {
+        background-color: #222125 !important;
+        border: none !important; /* Убираем рамки, чтобы было чисто */
+    }
 
+    /* 3. Текст внутри кода (ШРИФТ) */
+    /* Меняем красный/розовый на твой бирюзовый #40a9a4 */
+    
+    /* Основной цвет текста в блоках */
     code {
-        color: #ff5252 !important;
+        color: #40a9a4 !important;
     }
+    
+    /* Принудительно красим ключевые слова (SELECT, FROM и т.д.), которые были красными */
+    .highlight .k, .highlight .kd, .highlight .kn, .highlight .kp, .highlight .kr, .highlight .kt, .highlight .nt, .highlight .s {
+        color: #40a9a4 !important;
+    }
+    
+    /* Немного осветлим обычный текст и скобки, чтобы не сливалось */
+    .highlight .n, .highlight .p, .highlight .w {
+        color: #e0e0e0 !important;
+    }
+
 </style>
