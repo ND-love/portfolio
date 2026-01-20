@@ -13,7 +13,9 @@ hide_table_of_contents: true
 * **Активные проекты:** Разработка DM-tool, Portswigger
 
 ### 🚀 Быстрая навигация
-* **[📂 Мои Райтапы](/docs/intro)** — разборы задач bWAPP, Bandit, PortSwigger.
+* **[📂 Мои Райтапы](/docs/write-up/intro)** — разборы задач bWAPP, Bandit, PortSwigger.
+* **[<img src="/portfolio/img/script.png" width="20" style={{verticalAlign: "-3px"}} /> Мои скрипты](/docs/scripts/intro)** — полезные утилиты и автоматизация.
+* **[<img src="/portfolio/img/pico.svg" width="20" style={{verticalAlign: "-3px"}} /> picoCTF Профиль](https://play.picoctf.org/users/gmopig)** — аккаунт picoCTF.
 * **[🐙 GitHub Профиль](https://github.com/ND-love)** — мой код.
 
 ---

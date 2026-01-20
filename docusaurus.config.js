@@ -71,6 +71,11 @@ const config = {
             label: 'Мои Райтапы',
           },
           {
+            to: '/docs/scripts/intro',
+            position: 'left',
+            label: 'Скрипты',
+          },
+          {
             href: 'https://github.com/ND-love/portfolio',
             label: 'GitHub',
             position: 'right',
