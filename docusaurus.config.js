@@ -58,30 +58,28 @@ const config = {
         defaultMode: 'dark',
         respectPrefersColorScheme: true,
       },
-      navbar: {
-        title: 'Портфолио Д.Р.',
-        logo: {
-          alt: 'Logo',
-          src: 'img/ico.png',
-        },
-        items: [
+      items: [
           {
-            to: '/docs/intro', 
+            // Кнопка "Райтапы" - подключаем меню writeupsSidebar
+            type: 'docSidebar',
+            sidebarId: 'writeupsSidebar', 
             position: 'left',
             label: 'Мои Райтапы',
           },
           {
-            to: '/docs/scripts/intro',
+            // Кнопка "Скрипты" - подключаем меню scriptsSidebar
+            type: 'docSidebar',
+            sidebarId: 'scriptsSidebar',
             position: 'left',
             label: 'Скрипты',
           },
+          // ... кнопка GitHub остается как была ...
           {
             href: 'https://github.com/ND-love/portfolio',
             label: 'GitHub',
             position: 'right',
           },
         ],
-      },
       // ЧИСТЫЙ ФУТЕР (Убрали все лишние ссылки)
       footer: {
         style: 'dark',
