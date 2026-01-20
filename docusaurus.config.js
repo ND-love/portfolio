@@ -58,32 +58,36 @@ const config = {
         defaultMode: 'dark',
         respectPrefersColorScheme: true,
       },
-      items: [
+      navbar: {
+        title: 'My Portfolio',
+        logo: {
+          alt: 'My Site Logo',
+          src: 'img/logo.svg',
+        },
+        items: [
           {
-            // Кнопка "Райтапы" - подключаем меню writeupsSidebar
             type: 'docSidebar',
-            sidebarId: 'writeupsSidebar', 
+            sidebarId: 'writeupsSidebar', // Важно: этот ID должен быть в sidebars.js
             position: 'left',
             label: 'Мои Райтапы',
           },
           {
-            // Кнопка "Скрипты" - подключаем меню scriptsSidebar
             type: 'docSidebar',
-            sidebarId: 'scriptsSidebar',
+            sidebarId: 'scriptsSidebar', // Важно: этот ID должен быть в sidebars.js
             position: 'left',
             label: 'Скрипты',
           },
-          // ... кнопка GitHub остается как была ...
           {
             href: 'https://github.com/ND-love/portfolio',
             label: 'GitHub',
             position: 'right',
           },
         ],
-      // ЧИСТЫЙ ФУТЕР (Убрали все лишние ссылки)
+      }, // <--- ТЫ ПРОПУСТИЛ ЭТУ ЗАПЯТУЮ И СКОБКУ, ЗАКРЫВАЮЩУЮ NAVBAR
+
       footer: {
         style: 'dark',
-        links: [], // Пустой массив = нет ссылок
+        links: [],
         copyright: `Copyright © ${new Date().getFullYear()} Портфолио Д.Р.`,
       },
       prism: {
