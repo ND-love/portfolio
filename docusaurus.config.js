@@ -59,10 +59,10 @@ const config = {
         respectPrefersColorScheme: true,
       },
       navbar: {
-        title: 'My Portfolio',
+        title: 'Портфолио Д.Р.',
         logo: {
           alt: 'My Site Logo',
-          src: 'img/logo.svg',
+          src: 'img/ico.png',
         },
         items: [
           {
