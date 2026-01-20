@@ -1,6 +1,6 @@
 ---
-sidebar_position: 0
-slug: /intro
+sidebar_position: 1
+slug: /writeups/intro
 ---
 
 # 📂 Мои Райтапы
