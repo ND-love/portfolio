@@ -6,7 +6,7 @@ title: Cross-Site Scripting - Reflected (AJAX/XML)
 
 Надо закодировать некоторые части данного payload
 
-<img src='#' onerror='alert(bee)'>
+<img src='#' onerror='alert(bee)' />
 
 Кодируем и получаем
 

