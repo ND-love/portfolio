@@ -9,7 +9,7 @@ sidebar_position: 1
 
 
 Почти тоже самое, но используем еще пароль bug
-
+```bash
 ' or '1'='1'-- -
-
+```
 ![](images/SQL_Injection_Login_FormUser_img_1.png)

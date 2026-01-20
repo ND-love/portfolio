@@ -11,7 +11,7 @@ sidebar_position: 1
 В приложении используется функция поиска AJAX, которая динамически отображает результаты по мере ввода пользователем данных в поле поиска.
 
 Поэтому используем строку ниже для просмотра списка пользователей:
-
-' UNION SELECT NULL,column\_name,NULL,NULL,NULL,NULL,NULL from information\_schema.columns where table\_name='users' -- #
-
+```bash
+' UNION SELECT NULL,column_name,NULL,NULL,NULL,NULL,NULL from information_schema.columns where table_name='users' -- #
+```
 ![Dumping columns](images/SQL_Injection_AJAXJSONjQuery_img_1.png)
