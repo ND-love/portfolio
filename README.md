@@ -1,41 +1,71 @@
-# Website
+#  Портфолио и База Знаний (InfoSec & Development)
 
-This website is built using [Docusaurus](https://docusaurus.io/), a modern static website generator.
+Это репозиторий моего персонального сайта-портфолио. Здесь я структурирую свои знания, публикую решения CTF-задач (Writeups) и делюсь полезными скриптами для автоматизации.
 
-## Installation
+🔗 **Живая версия сайта:** [https://ND-love.github.io/portfolio/](https://ND-love.github.io/portfolio/)
 
+---
+
+##  Что внутри?
+
+Проект разделен на две основные части:
+
+### 1. 🚩 Writeups (Разборы уязвимостей)
+Подробные прохождения лабораторных работ и CTF-площадок:
+* **bWAPP** (Bee-Box) — разбор классических веб-уязвимостей (Injection, XSS, CSRF и др.).
+* **Bandit (OverTheWire)** — основы Linux и Bash.
+* **picoCTF** — задачи по Web Exploitation и криптографии.
+* **PortSwigger** — (в планах/в процессе) продвинутые техники веб-атак.
+
+### 2. 🛠️ Scripts (Инструментарий)
+Мои авторские утилиты на Python для автоматизации рутины:
+* **Word to Markdown Splitter** — конвертер больших DOCX-отчетов в структурированные MD-файлы для документации.
+* **YouTube 4K Cutter** — загрузчик фрагментов видео в исходном качестве без перекодировки (yt-dlp wrapper).
+
+---
+
+## 🏗️ Технический стек
+
+Сайт построен как **Static Site Generator (SSG)**, что обеспечивает высокую скорость загрузки и удобство написания статей в Markdown.
+
+* **Фреймворк:** [Docusaurus 2](https://docusaurus.io/) (React + MDX)
+* **Языки:** JavaScript, Python (для скриптов автоматизации), Markdown
+* **Деплой:** GitHub Pages (автоматическая сборка через GitHub Actions)
+* **Поиск:** Local Search (EasyOps)
+
+---
+
+##  Как запустить локально?
+
+Если вы хотите развернуть копию сайта у себя для тестов или доработки:
+
+1. **Клонируйте репозиторий:**
 ```bash
-yarn
+   git clone [https://github.com/ND-love/portfolio.git](https://github.com/ND-love/portfolio.git)
+   cd portfolio
 ```
+2. Установите зависимости:
 
-## Local Development
+```Bash
+npm install
+# или
+yarn install
+```
+3. Запустите сервер разработки:
 
-```bash
+```Bash
+npm start
+# или
 yarn start
 ```
+Сайт откроется по адресу http://localhost:3000. Изменения применяются в реальном времени.
 
-This command starts a local development server and opens up a browser window. Most changes are reflected live without having to restart the server.
+## Сборка и Деплой
+Создание оптимизированной версии (папка build):
 
-## Build
-
-```bash
-yarn build
+```Bash
+npm run build
 ```
-
-This command generates static content into the `build` directory and can be served using any static contents hosting service.
-
-## Deployment
-
-Using SSH:
-
-```bash
-USE_SSH=true yarn deploy
-```
-
-Not using SSH:
-
-```bash
-GIT_USER=<Your GitHub username> yarn deploy
-```
-
-If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.
+# Автор
+GitHub: @ND-love
+Специализация: Application Security, Pentest, Python Automation.
