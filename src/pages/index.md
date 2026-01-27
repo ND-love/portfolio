@@ -12,7 +12,7 @@ hide_table_of_contents: true
 * **Специализация:** Web Security / Pentest
 * **Активные проекты:** Разработка DM-tool, Portswigger
 
-### 🚀 Быстрая навигация
+### Быстрая навигация
 * **[📂 Мои Райтапы](/docs/writeups/intro)** — разборы задач bWAPP, Bandit, PortSwigger.
 * **[<img src="/portfolio/img/script.png" width="20" style={{verticalAlign: "-3px"}} /> Мои скрипты](/docs/scripts/intro)** — полезные утилиты и автоматизация.
 * **[<img src="/portfolio/img/pico.png" width="20" style={{verticalAlign: "-3px"}} /> picoCTF Профиль](https://play.picoctf.org/users/gmopig)** — аккаунт picoCTF.

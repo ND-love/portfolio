@@ -14,4 +14,5 @@ slug: /writeups/intro
 | **picoCTF - Web Exploitation** | medium - 25 <br /> easy - 17 | ✅ Завершено |
 | **PortSwigger** | 0 / X | ⚪ Планируется |
 
+---
 _Выбери интересующий раздел в меню слева_
